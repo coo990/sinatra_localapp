@@ -17,6 +17,5 @@ end
 get '/named-cat' do
   p params
   @name = params[:name]
-  @color = params[:color]
   erb :index
 end
